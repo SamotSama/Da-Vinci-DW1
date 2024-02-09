@@ -6,7 +6,7 @@ body
     background-color: #f6f6fa;
 }
 #header{
-	min-width: 1349px;				
+	width: 100vw;				
 	background-repeat: no-repeat;	
 }
 #principal>ul{
@@ -46,13 +46,15 @@ body
 #titulo{
 	background-image: url(banner.jpg);
 	padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 h1{
     background-color: white;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     width: 15%;
-    margin: 20px 575px;
+    margin: auto;
     text-align: center;
     text-shadow: 2px 2px  #c3383d;
 }
@@ -66,7 +68,7 @@ h2{
 	margin: 10px 462px;
 }
 h3{
-	font-family: 'Product Sans';
+	font-family: 'Montserrat';
 	font-size: 18px;
 	background-color: white;
 	text-align: center;
@@ -74,7 +76,7 @@ h3{
 	margin: 10px 462px;
 }
 p{
-	font-family: 'Product Sans';
+	font-family: 'Montserrat';
 	font-size: 16px;
 	text-align: justify;
 	line-height: 2;
@@ -92,21 +94,11 @@ p{
     grid-row: 3 / span 7;
     background-image: url(ski.png);
     background-repeat: no-repeat;
-    margin: 0px 0px 0px -140px;
 }
 #grid-container2{
- 	display: grid;
-	grid-template-columns: auto auto auto;
-}
-.item7{
-	position: absolute;
-	padding: 10px 0px 0px 0px;
-}
-.item8 {
-	padding: 0px 0px 0px 330px;
-}
-.item9 {
-	padding: 56px 66px 0px 0px
+ 	display: flex;
+	justify-content: space-evenly;
+  align-items: center;
 }
 #eclipse
 {
@@ -118,7 +110,7 @@ p{
 }
 #footer{
 	background-color: #c3383d;
-	font-family: 'Product Sans';
+	font-family: 'Montserrat';
 	font-size: 16px;
 	font-weight: 100;
 	color: white;
@@ -157,7 +149,7 @@ h4
 .texto1 .search-container 
 {
  	float: left;
-  	font-family: 'Product Sans';
+  	font-family: 'Montserrat';
 }
 
 .texto1 input[type=text] {
@@ -284,9 +276,12 @@ input[type=submit] {
 }
 h5
 {
-	font-family: 'Product Sans';
+	font-family: 'Montserrat';
 	font-size: 48px;
 	border-bottom:  #c3383d solid;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
 }
 .boxes {	
   	display: flex;
@@ -304,7 +299,7 @@ h5
 }
 h6
 {
-	font-family: 'Product Sans';
+	font-family: 'Montserrat';
 	font-size: 18px;
 	text-align: center;
 }
@@ -325,7 +320,7 @@ h6
   clear: both;
 }
 .content {
-	font-family: 'Product Sans';
+	font-family: 'Montserrat';
 	color: white;
   background-color: #c3383d;
   padding: 10px;
